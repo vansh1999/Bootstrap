@@ -45,8 +45,9 @@ figure, header, nav, section, article, aside, footer, figcaption {
 
 .main-img{
   height: 50px;
-  width: 1px;
+  width: 50px;
 }
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -473,6 +474,10 @@ header
   z-index: 99;
   right: 40px;
   display: none;
+}
+/* here */
+.main-nav{
+  width: 500px;
 }
 
 .header-area .main-nav .menu-trigger span,
